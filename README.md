@@ -64,4 +64,8 @@ Example:<br>
   node wpscan.js -t --th=9 https://target.com<br>
   node wpscan.js --bc --ext=.php https://target.com<br>
   <br>
+
 </p>
+
+***@NekomonHub***
+## **© 2025 node-wpscan**
