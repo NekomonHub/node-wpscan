@@ -22,6 +22,9 @@
   <img src="https://img.shields.io/badge/npm-Package-red?logo=npm" />
 </p>
 
+**USE ONLY FOR AUTHORIZED TARGETS, DO NOT USE INACCURATELY
+THIS TOOL IS MADE FOR LEGAL PENTESTERS***
+
 <p>
   Usage:<br>
   node wpscan.js [options] <target><br>
