@@ -23,42 +23,42 @@
 </p>
 
 <p>
-  Usage:
-  node wpscan.js [options] <target>
-
-Main options:
-  -t                  Turbo mode (maximum speed)
-  --bc                Basic / stealth mode
-  --th=N              Thread count
-  --delay=N           Delay between requests (ms)
-  --timeout=N         Request timeout (ms)
-
-Output control:
-  -v                  Verbose output
-  --silent            No banner
-  --json-only         Save result.json only
-  --console-only      Console output only
-
-Scan behavior:
-  --follow            Follow redirects
-  --min-size=N        Minimum content size to mark as valid
-  --method=HEAD|GET   HTTP method
-  --status=200,403    Only care about specific status
-  --save-404          Save 404 results too
-
+  Usage:<br>
+  node wpscan.js [options] <target><br>
+<br>
+Main options:<br>
+  -t                  Turbo mode (maximum speed)<br>
+  --bc                Basic / stealth mode<br>
+  --th=N              Thread count<br>
+  --delay=N           Delay between requests (ms)<br>
+  --timeout=N         Request timeout (ms)<br>
+<br>
+Output control:<br>
+  -v                  Verbose output<br>
+  --silent            No banner<br>
+  --json-only         Save result.json only<br>
+  --console-only      Console output only<br>
+<br>
+Scan behavior:<br>
+  --follow            Follow redirects<br>
+  --min-size=N        Minimum content size to mark as valid<br>
+  --method=HEAD|GET   HTTP method<br>
+  --status=200,403    Only care about specific status<br>
+  --save-404          Save 404 results too<br>
+<br>
 Filtering:
-  --ext=.php          Scan only specific extension
-  --dir-only          Scan directories only
-  --file-only         Scan files only
-
-Advanced:
-  --auth=user:pass    Basic auth
-  --proxy=http://ip   Use proxy
-  --resume            Resume previous scan
-  --no-random-ua      Disable UA rotation
-
-Example:
-  node wpscan.js -t --th=9 https://target.com
-  node wpscan.js --bc --ext=.php https://target.com
-  
+  --ext=.php          Scan only specific extension<br>
+  --dir-only          Scan directories only<br>
+  --file-only         Scan files only<br>
+<br>
+Advanced:<br>
+  --auth=user:pass    Basic auth<br>
+  --proxy=http://ip   Use proxy<br>
+  --resume            Resume previous scan<br>
+  --no-random-ua      Disable UA rotation<br>
+<br>
+Example:<br>
+  node wpscan.js -t --th=9 https://target.com<br>
+  node wpscan.js --bc --ext=.php https://target.com<br>
+  <br>
 </p>
