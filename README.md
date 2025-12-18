@@ -68,4 +68,4 @@ Example:<br>
 </p>
 
 ***@NekomonHub***
-## **© 2025 node-wpscan**
+**© 2025 node-wpscan**
