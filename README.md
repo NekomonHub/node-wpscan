@@ -67,5 +67,5 @@ Example:<br>
 
 </p>
 
-***@NekomonHub***
+***@NekomonHub***<br>
 **© 2025 node-wpscan**
