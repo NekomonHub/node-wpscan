@@ -21,7 +21,7 @@
   <img src="https://img.shields.io/badge/Windows-Supported-blue?logo=windows" />
   <img src="https://img.shields.io/badge/npm-Package-red?logo=npm" />
 </p>
-
+```text
 Usage:
   node wpscan.js [options] <target>
 
@@ -59,4 +59,4 @@ Advanced:
 Example:
   node wpscan.js -t --th=9 https://target.com
   node wpscan.js --bc --ext=.php https://target.com
-  
+  ```
